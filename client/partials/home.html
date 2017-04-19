@@ -1,0 +1,47 @@
+<div class = 'cover_container'>
+	<img class = 'cover_image' src = 'static/img/CoverImage.jpg' alt = 'coverImage'>
+</div>
+<div id = 'middle'>
+	<ul id = 'circle_list'>
+		 <li class = 'list_li'>
+			<a href = '#!/services' class = 'circle_link'><div class = 'circle'>
+				<img src = 'static/img/servicesLogo.jpg' class = 'circle_img'>
+			</div></a>
+			<p class = 'list_points'>Services</p>
+		</li>
+		<li class = 'list_li'>
+			<a href = '#!/services'><div class = 'circle'>
+				<img src = 'static/img/team.jpg' class = 'middle_img'>
+			</div></a>
+			<p class = 'list_points'>Talent</p>			
+		</li>
+		<li class = 'list_li'>
+			<a href = '#!/services'><div class = 'circle'>
+				<img src = 'static/img/styles.jpg' class = 'circle_img'>
+			</div></a>
+			<p class = 'list_points'>View Styles</p>
+		</li>
+	</ul>
+</div>
+<div ng-controller='mapCtrl'>
+		 <app-map style="height:200px;"
+	        center="loc"
+	        markers="cities"
+	    > 
+	    </app-map>
+</div>
+<div id = 'info'>
+	<div class = 'salon_info'>
+		<h3>Location</h3>
+		<p>6215 Oakmont Blvd</p>
+		<p>Fort Worth, Tx 76132</p>
+		<p>Phone: 817-710-3025</p>
+	</div>
+	<div class = 'salon_info'>
+		<h3>Hours</h3>
+		<p>Monday - Friday: 10AM-8PM</p>
+		<p>Saturday & Sunday: 10AM-7PM</p>
+	</div>
+</div>
+
+<div class = 'salon_info'></div>
