@@ -1,0 +1,325 @@
+/*index page*/
+#container{
+	width: 100%;
+	padding: 0px;
+	margin: 0;
+	/*background-color: #FCFBE3; */
+}
+#logo-wrapper {
+	display: inline-block;
+	overflow: hidden;
+	height: 100px;
+	width: 200px;
+	/*border: solid black;*/
+}
+#logo{
+	height: 100px;
+	width: 100px;
+	margin-left: 50px;
+	transform: scale(2, 2);
+}
+#menu_bar{
+	list-style-type: none;
+	width: 100%;
+	background-color: #776b63;
+	margin: 0px;
+	padding: 15px 0px;
+	text-align: center;
+	font-size: 18px;
+}
+.page-item{
+	width: 100%;
+}
+.page-link{
+	width: 100%;
+}
+#menu_bar li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+li {
+	display: inline-block;
+}
+
+/*home.html*/
+.cover_container{
+	height: 300px;
+	overflow: hidden;
+	margin: 30px auto;
+	max-width: 900px;
+}
+.cover_image {
+	height: 400px; 
+	width: 100%;
+	margin: -81px 0px 0px 0px;
+}
+
+.salon_info {
+	display: inline-block;
+	vertical-align: top;
+	width: 49%;
+}
+.salon_info p{
+	margin: 0px;
+}
+
+#info {
+	background-color: #776b63;
+	color: white;
+	padding: 35px;
+	/*width: 530px;*/
+}
+.form_field {
+	display: block;
+	padding: 5px;
+	margin: 10px;
+}
+#middle {
+	padding: 0px;
+	text-align: center;
+}
+.circle {
+	width: 225px;
+	height: 225px;
+	display: inline-block;
+	border-radius: 50%;
+	background-color: blue;
+	overflow: hidden;
+}
+#circle_list {
+	list-style-type: none;
+	width: 100%;
+	padding: 0px;
+	margin: 25px 0px;
+}
+.list_li {
+	width: 265px;
+	height: 200px;
+	margin: 0px 5px;
+} 
+.list_points {
+	text-align: center;
+	margin: 0px 0px;
+}
+.circle_img{
+	width: 100%;
+	height: 100%;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.circle_img:hover{
+	cursor: pointer;
+	height: 300px;
+	width: 300px;
+}
+.middle_img{
+	width: 100%;
+	height: 100%;
+	transform: scale(1.5, 3);
+	margin: 117px 0px 0px 51px;
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.middle_img:hover{
+	cursor: pointer;
+	height: 300px;
+	width: 300px;
+	margin: 140px 0px 0px 40px;
+
+}
+h3 {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+/*Services Page*/
+.services {
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+	max-width: 355px;
+	min-width: 255px;
+}
+.service_div{
+	display: inline-block;
+	width: 100%;
+	/*border: solid black;*/
+	background-color: white;
+	margin-top: 30px;
+	text-align: center;
+
+	/*text-align: center;*/
+}
+.service_img_container{
+	display: inline-block;
+	width: 50%;
+	max-height: 200px;
+	max-width: 355px;
+	overflow: hidden;
+}
+.service_img{
+	max-width: 100%;
+	max-height: 100%;
+	display: inline-block;
+}
+.overflow{
+	overflow: visible;
+}
+
+h2 {
+	vertical-align: top;
+	margin: 0px;
+	text-align: center;
+}
+
+.service_ul{
+	vertical-align: top;
+	display: inline-block;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.service_li{
+	width: 100%;
+	background-color: #c49a7b;
+	margin: 5px 0px;
+	border-radius: 5px;
+	text-align: left;
+
+}
+.service_li p{
+	display: inline-block;
+	background-color: #c49a7b;
+	margin: 10px 5px;
+}
+
+.service_name {
+	width: 74%;
+}
+/*About Page*/
+.list-group{
+	margin: 20px 0px;
+}
+.list-group-item{
+	border: none;
+	/*text-align: center;*/
+	padding: 0;
+}
+.pagination{
+	border-radius: 0px;
+}
+.pagination>li>a{
+	float: none;
+	background-color: transparent;
+	color: #fff;
+	border: none;
+	margin: -3px;
+	padding: 18px 12px;
+}
+.pagination>li:first-child>a{
+	border-radius: 0;
+}
+.pagination>li:last-child>a{
+	border-radius: 0;
+}
+#offers{
+	/*background-color: #a4d5e2;*/
+	/*background-color: #FEF9FF;*/
+	background-image: url('/static/img/flowers.jpg'); 
+	height: 219px;
+	/*margin: 20px 0px;*/
+	text-align: center;
+	padding: 47px 60px;
+	background-size: cover;
+	color: brown;
+	margin: 13px 0;
+}
+#b{
+	list-style-type: square;
+	display: block;
+	padding: 35px;
+	margin: 0;
+	font-size: 20px;
+
+}
+.offers{
+	margin: 0px;
+	padding: 0px 0px;
+}
+.glyphicon{
+	margin: 10px;
+	line-height: 15px;
+	top: 3px;
+}
+app-map{
+	height: 400px;
+	margin: 12px;
+	box-shadow: 0 3px 25px black;
+	width: 100%;
+}
+/*body {
+	overflow: scroll;
+}*/
+#map{
+	display: inline-block;
+	width: 330px;
+}
+.inline-block{
+	display: inline-block;
+}
+#map_location{
+	margin: 0 auto;
+	text-align: center
+}
+#location{
+	display: inline-block;
+	vertical-align: top;
+	padding: 4em;
+	font-size: 20px;
+}
+#location ul{
+	margin: 0px;
+	padding: 0;
+}
+#location li{
+	display: block;
+	padding: 0;
+	margin: 0;
+
+}
+body{
+	margin: 0px;
+	padding: 0;
+}
+#icons{
+	margin: 15px 0;
+	text-align: center;
+
+}
+.icons{
+	height: 25px;
+	width: 25px;
+}
+/*booking page*/
+.form-group{
+	margin: 0px 9px;
+	
+}
+.form-control{
+	width: 13em;
+	padding: 0px 3px;
+}
+#form{
+	margin: 0 auto;
+	/*text-align:center;*/
+	/*display: block;*/
+}
+form{
+	display: inline-block;
+	text-align: center;
+}
