@@ -9,7 +9,7 @@ var app = angular.module('myApp', ['ngRoute'])
 app.config(function($routeProvider){
 	$routeProvider
 	.when('/', {
-		templateUrl: 'partials/home.html'
+		templateUrl: 'partials/home2.html'
 	})
 	.when('/about', {
 		templateUrl: 'partials/about.html'
@@ -21,7 +21,7 @@ app.config(function($routeProvider){
 		templateUrl: 'partials/booking.html'
 	})
 	.when('/home2', {
-		templateUrl: 'partials/home2.html'
+		templateUrl: 'partials/home.html'
 	})
 
 })
