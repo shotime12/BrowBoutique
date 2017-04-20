@@ -3,7 +3,6 @@ app.controller('mapCtrl', function($scope){
 	$scope.cities = [
 		{
 			place: 'Brow Boutique',
-			// desc: 'A country of culture and tradition',
 			lat: 32.662067,
 			lon: -97.403856
 

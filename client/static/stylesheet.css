@@ -37,25 +37,11 @@
     background-color: #555;
     color: white;
 }
-/*#menu_bar li a.active {
-	background-color: #4CAF50;
-	color:white;
-}*/
+
 li {
 	display: inline-block;
 }
 
-/*.navbar-inverse{
-	background-color: #776b63;
-	color: white;
-}
-.navbar-inverse{
-	color: red;
-}*/
-/*li a.active {
-    background-color: blue;
-    color: white;
-}*/
 
 /*home.html*/
 .cover_container{
@@ -101,23 +87,7 @@ li {
 	border-radius: 50%;
 	background-color: blue;
 	overflow: hidden;
-
 }
-/*.circle a{
-	margin-top: 5px;
-	display: block;
-	text-align: center;
-	-webkit-transition: all 0.5s  ease-out; 
-	-moz-transition: all 0.5s ease-out; 
-	-o-transition: all 0.5s ease-out; 
-	transition: all 0.5s ease-out;
-	visibility: hidden;
-	opacity: 0;
-} 
-.circle:hover a:hover:not(.active){
-	visibility: visible;
-	opacity: 1;
-}*/
 #circle_list {
 	list-style-type: none;
 	width: 100%;
@@ -217,7 +187,6 @@ h2 {
 	margin: 0px;
 }
 .service_li{
-	/*display: inline-block;*/
 	width: 100%;
 	background-color: #c49a7b;
 	margin: 5px 0px;
@@ -260,18 +229,7 @@ h2 {
 .pagination>li:last-child>a{
 	border-radius: 0;
 }
-/*.b{
-	list-style-type: square !important;
-	list-style-position: inside;
-}
-ul{
-	list-style-type: circle !important;
-	margin: 0;
-	padding: 0;
-}
-li{
-	list-style-type: square;
-}*/
+
 #offers{
 	/*background-color: #a4d5e2;*/
 	/*background-color: #FEF9FF;*/

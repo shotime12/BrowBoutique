@@ -1,10 +1,5 @@
 var app = angular.module('myApp', ['ngRoute'])
 
-// app.config(function(uiGmapGoogleMapApiProvider){
-// 	uiGmapGoogleMapApiProvider.configure({
-// 		libraries:'weather,geometry, visualization'
-// 	});
-// })
 
 app.config(function($routeProvider){
 	$routeProvider

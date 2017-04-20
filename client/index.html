@@ -2,47 +2,22 @@
 <html ng-app = 'myApp'>
 <head>
 	<title>Brow Boutique</title>
-	<!-- <script>
-      function initMap() {
-        var uluru = {lat: -25.363, lng: 131.044};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJSZMFGQ90gKyVJC9RWxXZw3rdQRhTkEk&callback=initMap">
-    </script> -->
-
 	<script src = '/angular/angular.js'></script>
 	<script src = '/angular-route/angular-route.js'></script>
 	<script src =  '/config/app.js'></script>
 	<script src = '/controllers/maps_controllers.js'></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script
-    src="http://maps.googleapis.com/maps/api/js?sensor=false&language=en"></script>
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJSZMFGQ90gKyVJC9RWxXZw3rdQRhTkEk&callback">
+  </script>
 	<link rel= 'stylesheet' href = 'static/stylesheet.css'>
-<!-- 	<script
-    src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.3/angular.min.js"></script> -->
-	<!-- <style>
-		#container{
-			/*background-image: url('static/img/background.jpg');*/
-		}
-	</style> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<div id = 'container'>
-		<!-- <img src = 'static/img/background.jpg'> -->
 		<div id = 'logo-wrapper'>
 			<img id = 'logo' src = 'static/img/logo.jpg' alt = 'Logo'>
 		</div>
-
 		<ul id = 'menu_bar' class = 'pagination .navbar-collapse'>
 			<li class = 'page-item'><a class = 'page-link' href = '#'>Home</a></li>
 			<li><a href = '/#!/about'>About</a></li>
@@ -51,22 +26,7 @@
 			<li><a href = '#!/home2'>Home Alternate</a></li>
 			<li><a href = '#!/booking'>Book Now!</a></li>
 		</ul>
-
-	<!-- 	<nav class = 'navbar navbar-inverse'>
-			<ul class = 'nav navbar-nav'>
-				<li><a href = '#'>Home</a></li>
-				<li><a href = '#!/about'>About</a></li>
-				<li><a href = '#!/services'>Services</a></li>
-				<li><a href = '#!/booking'>Book Now</a></li>
-				<li><a href = '#!/home2'>Alternate Home</a></li>
-			</ul>
-		</nav> -->
-
-
-		<div ng-view = '' autoscroll = 'true'>
-		</div>
+		<div ng-view = '' autoscroll = 'true'></div>
 	</div>
-
-
 </body>
 </html>
