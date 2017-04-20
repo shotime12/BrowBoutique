@@ -41,6 +41,7 @@ li {
 	display: inline-block;
 }
 
+
 /*home.html*/
 .cover_container{
 	height: 300px;
@@ -227,6 +228,7 @@ h2 {
 .pagination>li:last-child>a{
 	border-radius: 0;
 }
+
 #offers{
 	/*background-color: #a4d5e2;*/
 	/*background-color: #FEF9FF;*/
